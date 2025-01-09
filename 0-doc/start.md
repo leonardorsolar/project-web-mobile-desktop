@@ -2,6 +2,7 @@ Aqui está um guia passo a passo detalhado mostrando a estrutura de diretórios 
 
 ---
 
+git
 resumo:
 react -> npm run dev
 react native -> npm start

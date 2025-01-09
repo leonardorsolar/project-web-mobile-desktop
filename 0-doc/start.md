@@ -2,6 +2,11 @@ Aqui está um guia passo a passo detalhado mostrando a estrutura de diretórios 
 
 ---
 
+resumo:
+react -> npm run dev
+react native -> npm start
+electron -> npm start
+
 ## **1. Criar uma página simples com HTML, CSS e JavaScript**
 
 ### Diretório do projeto:

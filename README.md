@@ -1,6 +1,6 @@
 # Projeto Web, Mobile e Desktop
 
-[![GitHub](./0-doc/projeto.png)
+![GitHub](./0-doc/projeto.png)
 
 Este repositório organiza o desenvolvimento de projetos para plataformas web, mobile e desktop, estruturado nos seguintes diretórios:
 

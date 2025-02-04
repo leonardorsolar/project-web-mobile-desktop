@@ -1,98 +1,3 @@
-Aqui está um guia passo a passo detalhado mostrando a estrutura de diretórios e como criar os projetos com base no mesmo código:
-
----
-
-git
-resumo:
-react -> npm run dev
-react native -> npm start
-electron -> npm start
-
-## **1. Criar uma página simples com HTML, CSS e JavaScript**
-
-### Diretório do projeto:
-
-```
-meu-projeto-html/
-├── index.html
-├── style.css
-└── script.js
-```
-
-### Passos:
-
-1. **Crie a pasta do projeto:**
-
-    ```bash
-    mkdir meu-projeto-html
-    cd meu-projeto-html
-    ```
-
-2. **Adicione os arquivos:**
-
-    **`index.html`**
-
-    ```html
-    <!DOCTYPE html>
-    <html lang="en">
-        <head>
-            <meta charset="UTF-8" />
-            <meta
-                name="viewport"
-                content="width=device-width, initial-scale=1.0"
-            />
-            <title>Página Simples</title>
-            <link rel="stylesheet" href="style.css" />
-        </head>
-        <body>
-            <div id="app">
-                <h1>Bem-vindo!</h1>
-                <button id="btn">Clique aqui</button>
-            </div>
-            <script src="script.js"></script>
-        </body>
-    </html>
-    ```
-
-    **`style.css`**
-
-    ```css
-    body {
-        font-family: Arial, sans-serif;
-        text-align: center;
-        background-color: #f0f0f0;
-    }
-
-    h1 {
-        color: #333;
-    }
-
-    button {
-        padding: 10px 20px;
-        background-color: #007bff;
-        color: white;
-        border: none;
-        border-radius: 5px;
-        cursor: pointer;
-    }
-
-    button:hover {
-        background-color: #0056b3;
-    }
-    ```
-
-    **`script.js`**
-
-    ```javascript
-    document.getElementById("btn").addEventListener("click", () => {
-        alert("Você clicou no botão!")
-    })
-    ```
-
-3. Abra o arquivo `index.html` no navegador para visualizar o resultado.
-
----
-
 ## **2. Criar um projeto React.js com Vite**
 
 ### Diretório do projeto:
@@ -110,7 +15,13 @@ meu-projeto-react/
 └── index.html
 ```
 
-### Passos:
+### Start2:
+
+1- Navegue até a pasta 2-meu-projeto-react e dentro dela digite no terminal: code .
+2- instalar as dependências. no terminal digite: npm install
+3- Dentro da pasta da aplicação, digite no terminal: npm run dev
+
+### Passos para implementação:
 
 1. **Crie o projeto com Vite:**
 
